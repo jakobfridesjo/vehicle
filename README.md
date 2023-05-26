@@ -1,8 +1,8 @@
-# fordon
+# VEHICLE
 
-This is a remote controlled robot car
+## This is a remote controlled robot car
 
-To car:
+### Commands to car:
 
     Control motor speed and direction:
         m,<1/2><0-9>,<1/2><0-9>.
@@ -19,14 +19,14 @@ To car:
     
     Emergency stop:
         n,<text>.
-            <text>: Max 16 characters (red led on)
+            <text>: Maximum of 16 characters (red led on)
     
     Emergency stop unlock:
         k.
     
     Write text to display:
         t,<text>
-            <text>: Max 16 characters
+            <text>: Maximum of 16 characters
     
     Add notes to melody buffer:
         p,<a-c/0><3-6><0/s><1-8>.
@@ -35,7 +35,7 @@ To car:
             <0/s>: Full/half notes
             <1-8>: Note length
     
-    Returns PONG. from car:
+    Returns PONG:
         PING.
     
     Enable buzzer:
@@ -45,7 +45,7 @@ To car:
     Heartbeat, 3 seconds without disables motors:
         h.
 
-From car:
+### Commands from car:
 
     PONG. when receiving PING.:
         PONG.
